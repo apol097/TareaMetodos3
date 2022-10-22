@@ -25,8 +25,10 @@ public class Ejercicio1 {
         System.out.println("carnet\t\t\tnombre\t\t\tnota");
         System.out.println("-------------------------------------------------------------");
         for(int i = 0; i < totalAlumnos ; i++){
-            System.out.println(carnets[i] 
-            + "\t\t\t" + nombres[i] + "\t\t\t" + notas[i]);
+            if(notas[i] <=10 && notas[i] >= 8.5)
+                System.out.println(carnets[i] + "\t\t\t" + nombres[i] + "\t\t\t" + notas[i]);
+            else
+                continue;
         }
       scanner.close();  
     }
