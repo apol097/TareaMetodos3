@@ -2,7 +2,7 @@ import java.util.Scanner;
 // no esta listo aun hay que preguntar
 
 public class Ejercicio5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introdusca la cantidad de Empleados : ");
         int cantidadEmpleados = scanner.nextInt();
