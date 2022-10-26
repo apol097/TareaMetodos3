@@ -20,7 +20,6 @@ public class Ejercicio1 {
             System.out.print("Introduce el nombre del alumno "+(i+1)+ " :");
             nombres[i] = scanner.next();
         }
-
         System.out.println("-------------------  Detalle de Alumnos ---------------------");
         System.out.println("carnet\t\t\tnombre\t\t\tnota");
         System.out.println("-------------------------------------------------------------");

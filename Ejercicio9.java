@@ -16,6 +16,7 @@ public class Ejercicio9 {
         media = Math.round(media * 100) / 100d;
         System.out.println("La media de edades es : " + media);
         scanner.close();
+        
         for(int i = 0; i <cantidadPersonas ; i++){
             if (edades[i] >= media ) arribaMedia++;
             else abajoMedia++;

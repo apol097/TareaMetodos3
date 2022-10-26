@@ -15,8 +15,7 @@ class Ejercicio4{
 		double monto_cancelar[] = new double[num_clientes];
         int i;
 
-        for (i=0;i<num_clientes;i++)
-        {
+        for (i=0;i<num_clientes;i++){
         	System.out.print("Ingrese El Nombre Del Cliente "+i+1+" : " );
         	nombre_clien[i] = sc.nextLine();
         	System.out.print("Ingrese El Telefono Del Cliente "+i+1+" : ");

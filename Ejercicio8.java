@@ -9,7 +9,6 @@ class Ejercicio8{
         double nuevo_sal[] = new double[100];
         double suma_salario_ant = 0, suma_salario_nue = 0, incremento = 0;
         int i;
-
         for ( i = 0;i<100;i++){
         	System.out.print("Ingrese el salario del empleado: "+(i+1)+" : ");
         	salario[i] = sc.nextDouble();

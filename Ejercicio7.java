@@ -16,6 +16,7 @@ public class Ejercicio7 {
         for(int i = 0; i <cantidadPersonas ; i++){
             System.out.println("Edad "+ (i+1) + " :" + edades[i]);
         }
+        
         System.out.println("La media de edades es : " + (totalEdades/cantidadPersonas));
         scanner.close();
     }

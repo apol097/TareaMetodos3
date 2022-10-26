@@ -20,7 +20,6 @@ class Ejercicio12{
 		double evaluacion5[] = new double[num_alumnos];
 		double nota_final[] = new double[num_alumnos];
 		int i;
-		
 
 		for (i=0;i<num_alumnos;i++)
 		{

@@ -27,7 +27,6 @@ class Ejercicio18{
         {
         	//Lazo columnas
         	for (int c=0;c<3;c++)
-
         	{
         			
         		System.out.print(tabla[c][f]+" ");

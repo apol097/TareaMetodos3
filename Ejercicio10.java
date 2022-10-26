@@ -15,7 +15,6 @@ class Ejercicio10{
         {
         System.out.println("Ingrese la letra: "+(i+1)+" : ");	
         letras[i] = sc.nextLine().toLowerCase();
-
         }
 
         for (i = 0;i<1500;i++)

@@ -24,7 +24,6 @@ public class Ejercicio11 {
 
         System.out.println("Empleado\tSueldo Total\tDescuento\tSueldo Neto" );
         for(int i = 0; i< cantidadempleados;i++){ 
-
             System.out.print("  "+(i+1)+"\t\t  " + sueldoTotal[i]); 
             descuentos[i] = (double)Math.round((sueldoTotal[i]*totalDescuento)*100)/100d;
             //La variable esta cambiando valor

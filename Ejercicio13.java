@@ -5,7 +5,6 @@ public class Ejercicio13 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introdusca la cantidad de notas a ingresar por vector : ");
         int cantidadNotas = scanner.nextInt();
-
         int[] vector1 = new int[cantidadNotas];
         int[] vector2 = new int[cantidadNotas];
         System.out.println("Para el Primer Vector");

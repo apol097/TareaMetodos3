@@ -21,7 +21,6 @@ class Ejercicio16a {
 		        System.out.print(""+tabla[i][j]);
 			}
         	System.out.println("");
-		}
-		
+		}	
 	}
 }

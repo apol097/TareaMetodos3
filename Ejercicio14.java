@@ -22,10 +22,5 @@ class Ejercicio14{
 			System.out.println(numero+" * "+i+" = "+tabla[i]);
 		}
 
-
-
-        
-
-
 	}
 }

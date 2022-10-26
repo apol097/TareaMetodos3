@@ -24,7 +24,6 @@ public class Ejercicio3 {
                 System.out.println("!!!Felicidades eres el Ganador " + contador + " del sorteo!!!");
             }
         }   
-
         scanner.close();
     }
 }

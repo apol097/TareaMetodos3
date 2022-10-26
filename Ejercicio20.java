@@ -8,8 +8,6 @@ class Ejercicio20{
 		int tabla[][] = new int[6][6];
         int num_mayor = 0;
         int resultado[] = new int[2];
-
-
 		for (int f=0;f<5;f++)
 		{
 			

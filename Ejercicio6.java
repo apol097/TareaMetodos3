@@ -8,7 +8,6 @@ class Ejercicio6{
 		Scanner sc = new Scanner(System.in);
 		int edad[] = new int[20];
 		String nombres[] = new String[20];
-
 		for (int i=0;i<20;i++)
 		{   
 		System.out.print("Ingrese la edad de la persona "+(i+1)+" : ");
