@@ -18,6 +18,25 @@ public class Ejercicio7 {
         }
         
         System.out.println("La media de edades es : " + (totalEdades/cantidadPersonas));
+        int aux;
+        for (int i = 0; i < edades.length - 1; i++){
+            for(int j = 0; j < edades.length - i -1 ; j++ ){
+                if ( edades[j + 1] > edades[j]){
+                    aux = edades[j + 1];
+                    edades[j+1] = edades[j];
+                    edades[j] = aux;
+                }
+            }
+        }
+        System.out.print("Edades en forma Decreciente : ");
+        for( int i = 0; i < edades.length ; i++){
+            System.out.print(edades[i] + " ");
+        }
+        System.out.print("\nEdades en forma Creciente :");
+        for( int  i = edades.length -1; i>=0 ; i--){
+            System.out.print(edades[i]+ " ");
+        }
+        System.out.println();
         scanner.close();
     }
 }
