@@ -21,7 +21,7 @@ class Ejercicio6{
 				System.out.println("No esta en la de entre 15 y 45");
 				i--;
 			}
-       System.out.println("----------------------Peronas Entre 15 y 45-----------------------------------");
+       System.out.println("------Personas Entre 15 y 45-------------");
        System.out.println("Nombre De La Persona\t\t\tEdad De La Persona");
         for ( i=0;i<20;i++)
         {
